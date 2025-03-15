@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 10% 10% 10% 70%;
+    grid-template-columns: 100%;
+}
+.Title{
+    background-color: rgb(115, 130, 143);
+    color: rgb(251, 251, 252);
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    grid-row: 1/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AddMovie{
+    background-color: rgb(223, 251, 251);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MoviesContainer{
+    background-color: rgb(249, 251, 244);
+    grid-row: 3/3;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.input-add{
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 20px;
+    height: 30px;
+    width: 200px;
+}
+.add-btn{
+    color: rgb(33, 33, 39);
+    background-color: rgb(141, 181, 130);
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 200px;
+}
+.add-btn:hover{
+    color: rgb(33, 33, 39);
+    background-color: rgb(141, 181, 130);
+    border: none;
+    border-radius: 20px;
+    height: 35px;
+    width: 210px;
+}
+
+.MoviesContainer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 30px;
+    width: 1000px;
+    margin: 5px;
+}
+.Edit-btn,.Patch-btn,.Delete-btn{
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(137, 161, 174);
+}
+
+span{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Delete-btn{
+    background-color: rgb(230, 208, 208);
+}
+.Patch-btn{
+    background-color: rgb(216, 216, 161);
+}
+.Edit-btn{
+    background-color: rgb(196, 196, 221);
+}
+.Delete-btn:hover{
+    background-color: rgb(230, 208, 208);
+    padding: 7px;
+}
+.Patch-btn:hover{
+    background-color: rgb(216, 216, 161);
+    padding: 7px;
+
+}
+.Edit-btn:hover{
+    background-color: rgb(196, 196, 221);
+    padding: 7px;
+
+}
+.EditMovie{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.edit-input{
+    background-color: aliceblue;
+    height: 25px;
+    text-align: center;
+    width: 200px;
+    border-radius: 20px;
+}
+.on-update{
+    background-color: rgb(223, 210, 236);
+    border-radius: 15px;
+    padding: 4px;
+}
+.on-update:hover{
+    background-color: rgb(223, 210, 236);
+    border-radius: 15px;
+    padding: 6px;
+}
